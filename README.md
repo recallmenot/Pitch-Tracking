@@ -16,9 +16,9 @@
 </ul>
 
 
-<h2> Update, June 2021 </h2>
+<h2> Update, Dec 2022 </h2>
 
-<p>A JUCE application + AU plugin implementing the EKF pitch tracker from the DAFx 2017 paper with basic plotting has now been added. The only external library used is <a href = "https://eigen.tuxfamily.org/index.php?title=Main_Page">Eigen</a> for implementing the Kalman filter. The plugin works on MacOS so far. VST support needs to be added.
-  
- </p>
-
+<p>In june of 2021, Orchisama Das (orchidas) created an implementation of the ECKF in C++ using JUCE and Eigen.
+This repository is a fork of his implementation, de-JUCEd and modified to natively support both float and double data types.
+You will need Eigen, pffft and my helper libraries decibelConv and windowHann.
+</p>
